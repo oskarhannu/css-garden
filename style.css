@@ -1,0 +1,35 @@
+html {
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+abbr {
+	text-decoration: dotted;
+}
+
+/* get the third element of type "p" */
+
+p:nth-of-type(3) {
+	color: green;
+}
+
+/* get every 4th element of type "p" */
+
+p:nth-of-type(4n) {
+	color: purple;
+}
+
+/* only for high density devices with a specific maximum width */
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
+}
+
+/* only for screen */
+
+@media screen {
+}
+
+/* only for print */
+
+@media print {
+}
